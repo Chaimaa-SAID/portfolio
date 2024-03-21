@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>CS</span></a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <!-- Bouton About -->
+            <a href="#home" class="active">Home</a>
+<a href="#about" >About</a>
+
+<!-- Bouton Service -->
+<a href="#service" >Skills</a>
+
+<!-- Bouton Portfolio -->
+<a href="#portfolio" >Projects</a>
+
+<!-- Bouton Contact -->
+<a href="#contact" >Contact</a>
+
+        </nav>
+    </header>
+    
+<section class="home" id="home">
+<div class="home-content">
+    <h3>Hello, My name is</h3>
+    <h1> Chaimaa Said </h1>
+    <h3><span class="multiple-text">  </span></h3>
+    <!-- <p> Specializing in creating intuitive websites with the latest technology, I provide dynamic and captivating user experiences that engage and delight.</p> -->
+    <div class="social-media">
+        <a href="https://www.linkedin.com/in/chaimaasaid/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Chaimaa-SAID" ><i class="fa-brands fa-github"></i></a>
+
+    </div>
+    <a download="" href="pdf/ChaimaaSAID.pdf" class="btn">Download CV</a>
+</div>
+<div class="home-img">
+    <img src="img/perfil.png" alt="">
+</div>
+</section>
+<section class="about" id="about">
+
+    <div class="about-content">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/perfil.png" >
+            </div>
+            <div class="about-col-2">
+                <h2 class="heading">About <span>Me</span></h2>
+                <p>Mastery of the MERN stack with extensive experience in building web applications. Utilization of Angular on the client-side, Node.js/Express on the server-side, and MongoDB, SQL Server for the database. Also, proficient in using Redux/Toolkit (state store, middleware, action creator, reducer, and container) with Angular to build interfaces.</p>
+                <div class="tab-titles">
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                    <p class="tab-links active-link" onclick="openTab('experiences')">Experiences</p>
+                    
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>January 2024 - Present</span><br>MERN Stack Developer</li>
+                        <li><span>2019 - 2023</span><br>Bachelor's Degree in Computer Engineering</li>
+                        <li><span>2019</span><br>High School Diploma in Experimental Sciences, Physics-Chemistry stream.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="experiences">
+                    <ul>
+                        <li><span>January 2024 - Present</span><br>MERN Stack Developer | ARK-X Talent Factory</li>
+                        <li><span>April, May 2023</span><br>Full Stack Developer | Yousra Litajhiz Company</li>
+                        <li><span>August 2022</span><br>Internship | Hakam Gaming Company</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+<section class="service" id="service">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="carousel">
+
+        <div class="service-container">
+    
+            <div class="service-box">
+                <img src="img/css.webp" alt="Service 1">
+            </div>
+    
+            <div class="service-box">
+                <img src="img/html.webp" alt="Service 2">
+            </div>
+    
+            <div class="service-box">
+                <img src="img/javascript-logo.webp" alt="Service 3">
+            </div>
+            <div class="service-box">
+                <img src="img/github.webp" alt="Service 5">
+            </div>
+            <div class="service-box">
+                <img src="img/mongo-db.webp" alt="Service 4">
+            </div>
+            <div class="service-box">
+                <img src="img/nodejs.webp" alt="Service 6">
+            </div>
+            <div class="service-box">
+                <img src="img/react.webp" alt="Service 7">
+            </div>
+            <div class="service-box">
+                <img src="img/tailwind.webp" alt="Service 8">
+            </div>
+            <div class="service-box">
+                <img src="img/mysql.png" alt="Service 9">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio" id="portfolio">
+    <h2 class="heading"><span>Projects</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="img/stag.png"  alt="" >
+            <div class="portfolio-layer">
+            <h4>Application Web</h4>
+            <p>Developed a robust backend for a blog app using Express.js, Node.js, JavaScript, and MySQL, ensuring seamless performance and user interaction. </p>
+            <i class="fa-brands fa-github"></i>
+        </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/blog.png"  alt="" >
+            <div class="portfolio-layer">
+            <h4>Blog App Back-end</h4>
+            <p>Crafted robust backend for innovative blog app, ensuring seamless performance and user interaction. </p>
+            <a href="https://github.com/Chaimaa-SAID/Blog-App-Database"><i class="fa-brands fa-github"></i></a>
+        </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/calcu.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Calculateur sous réseaux</h4>
+                <p>Developed a subnet calculator application using HTML, CSS, and JavaScript for VLSM subnetting.</p>
+                <div class="icon-links">
+                    <a href="https://github.com/Chaimaa-SAID/Calculateur-sous-reseaux"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://calculateur-sous-reseaux.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <div class="row">
+    <div class="contact-left">
+        
+        <p><i class="fa-regular fa-envelope"></i>chaimaasaid.it@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>0602511250</p>
+        <div class="social-media2">
+                <a href="https://www.linkedin.com/in/chaimaasaid/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Chaimaa-SAID" ><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a download="" href="pdf/ChaimaaSAID.pdf" class="btn btn2">Download CV</a>
+        </div>
+        
+        <div class="contact-right">
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+        
+                <div class="input-box">
+                    <input type="number" placeholder="Mobil Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="input-box" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+    <p>Copyright © Chaimaa Said. All rights reserved.</p>
+</div>
+<div class="footer-iconTop">
+<a href="#home"><i class="fa-solid fa-angle-up"></i>
+
+</a>
+</div>
+</footer>
+<script>
+    function openTab(tabName) {
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove('active-link');
+        }
+        for (var i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabName).classList.add('active-tab');
+    }
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+    <script src="JS/main.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
